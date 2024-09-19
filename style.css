@@ -179,6 +179,37 @@ footer figure {
     border-radius: 20px;
     padding: 10px;
 }
+
+.portafoliocaja {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pcaja .ppcaja {
+    border: 1px solid #4F7CAC;
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+.pcaja p a {
+    text-decoration: none;
+    color: #4F7CAC;
+}
+
+.especialp {
+    border: 1px solid #4F7CAC;
+    width: 80px;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #4F7CAC;
+}
+
+
 .mcaja {
     border: 1px solid #4F7CAC;
     border-radius: 20px;
