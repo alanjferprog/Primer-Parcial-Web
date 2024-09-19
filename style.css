@@ -253,40 +253,33 @@ footer figure {
     border-radius: 5px; 
     font-size: 16px; 
     transition: background-color 0.3s; 
-    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 .cta-button:hover {
     background-color: #e0af32; 
 }
 
-#img-inicio {
-    width: 400px;
-    height: auto;
-    border-radius: 8px;
-    margin-left: 80px;
-}
-
 .caja-inicio {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 40px 100px;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
 }
 
 #texto-inicio {
-    width: 400px;
-    height: auto;
-    margin-left: 50px;
-    margin-bottom: 40px;
+     order: 2;
 }
-
 #texto {
-    width: 400;
-    height: auto;
+    
     margin-bottom: 40px;
     font-size: 17px;
     font-style: italic;
+}
+.imgini{
+    padding: 20px;
 }
 
 /* Pagina nosotros */
@@ -365,6 +358,16 @@ footer figure {
     .mfigure{
         width: 100px;
     }
+    .imgini{
+        padding: 40px;
+    }
+    #caja-nosotros {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly; 
+        align-items: center;
+        text-align: center;
+    }
     
 }
 
@@ -407,9 +410,28 @@ footer figure {
         margin-left: 5px;
     }
 
+    .caja-inicio{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content:space-around;
+        padding-top: 40px;
+    }
+    .imgini{
+        max-width: 400px;
+        float: right;
+        padding: 0%;
+    }
+    #texto-inicio{
+       
+        max-width: 400px;
+        
+        float: left;
+    }
     #caja-nosotros {
-        margin-top: 5rem;
+        display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly; 
+        align-items: center;
+        text-align: center;
     }
 }
