@@ -28,6 +28,10 @@ main {
   }
 
 /* HEADER */
+
+.icono-grupo {
+    width: 60px;
+}
   
 header {
     display: flex;
@@ -183,17 +187,25 @@ footer figure {
     width: 50%;
 }
 
+.pfigure {
+    width: 300px;
+    margin: 0 auto;
+}
+
 .mfigure {
     width: 25%;
     margin: auto;
     
 }
 
+
+
 .cajatec {
     margin-top: 1rem;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
 }
 
@@ -287,17 +299,13 @@ footer figure {
 }
 
 #caja-nosotros {
-    margin-left: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center; 
     align-items: center;
-    align-items: center;
-    margin-top: 30px;
+    text-align: center;
 }
 
-.integrante {
-    margin-left: 20px;
-}
 
 
 
@@ -398,5 +406,11 @@ footer figure {
     .imgsop{
         width: 120px ;
         margin-left: 5px;
+    }
+
+    #caja-nosotros {
+        margin-top: 5rem;
+        flex-direction: row;
+        justify-content: space-around;
     }
 }
