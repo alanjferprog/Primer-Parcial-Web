@@ -111,12 +111,12 @@ header {
     .nav-list li a {
         color: #162521;
     }
+
+    
 }
 
 
 /* FOOTER */
-
-
 footer {
     text-align: center;
     border-top: 5px solid black;
@@ -139,7 +139,6 @@ footer figure {
 
 
 /* MAIN */
-
 .ptitle {
     text-align: center;
     margin-top: 1.7rem;
@@ -262,7 +261,7 @@ footer figure {
 }
 
 #img-inicio {
-    width: 40%;
+    width: 400px;
     height: auto;
     border-radius: 8px;
     margin-left: 80px;
@@ -275,10 +274,11 @@ footer figure {
     padding: 40px 100px;
 }
 
-.texto-inicio {
+#texto-inicio {
     width: 400px;
-    height: 100px;
+    height: auto;
     margin-left: 50px;
+    margin-bottom: 40px;
 }
 
 #texto {
@@ -365,7 +365,6 @@ footer figure {
     .mfigure{
         width: 100px;
     }
-    
     
 }
 
