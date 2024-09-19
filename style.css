@@ -299,6 +299,10 @@ footer figure {
     text-align: center;
 }
 
+.active {
+    font-weight: bold;
+    color: red; /* O cualquier estilo que desees */
+}
 
 
 
